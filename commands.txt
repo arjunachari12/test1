@@ -1,0 +1,1 @@
+aws ec2 create-key-pair --key-name arjun3 --query "KeyMaterial" --output text > arjun3.pem
